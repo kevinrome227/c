@@ -1,0 +1,30 @@
+1.#include <iostream>
+
+2.using namespace std;
+
+3.int main()
+
+4.{
+
+5.int multiplicacion, numero, a=1;
+
+6.cout<<"Ingresa el numero de la tabla : ";
+
+7.cin>>numero;
+
+8.cout<<"La tabla del "<<numero<<" es :"<<endl;
+
+9.do{
+
+10.multiplicacion = numero * a;
+
+11.cout<< numero <<" x "<< a <<" = "<< multiplicacion <<endl;
+
+12.a++;
+
+13.}
+
+14while(a<=10);
+
+15.}
+
